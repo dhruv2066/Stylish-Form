@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stylish Form</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div class="main">
+            <input type="checkbox" id="chk" aria-hidden="true">
+
+            <div class="signup">
+                <form autocomplete="off">
+                    <label for="chk" aria-hidden="true">Sign Up</label>
+                    <input type="text" name="txt" placeholder="User Name" required>
+                    <input type="email" name="mail" placeholder="Email" required>
+                    <input type="password" name="pwd" placeholder="Password" required>
+                    <button>Sign Up</button>
+                </form>
+            </div>
+
+            <div class="login">
+                <form autocomplete="on">
+                    <label for="chk" aria-hidden="true">Login</label>
+                    <input type="email" name="mail" placeholder="Email" required>
+                    <input type="password" name="pwd" placeholder="Password" required>
+                    <button>Login</button>
+                </form>
+            </div>
+        </div>
+     </body>
+</html>
